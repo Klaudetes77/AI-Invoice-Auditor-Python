@@ -1,0 +1,11 @@
+# Archivos secretos
+.env
+
+# Entorno virtual de Python
+venv/
+__pycache__/
+
+# Carpetas de datos locales (no subir facturas de clientes a internet)
+facturas_nuevas/
+facturas_procesadas/
+base_historica_facturas.xlsx
