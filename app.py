@@ -8,13 +8,11 @@ from datetime import datetime
 import docx
 import time
 from dotenv import load_dotenv
-import os # (ya lo tenías)
+import os
 
-# Cargar las variables secretas del archivo .env
 load_dotenv()
 
 # 1. CONFIGURACIÓN DE LA IA
-# Ahora busca la llave de forma segura en tu computador
 api_key_secreta = os.getenv("GEMINI_API_KEY")
 cliente = genai.Client(api_key=api_key_secreta)
 
